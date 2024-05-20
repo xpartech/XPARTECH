@@ -11,7 +11,9 @@ const Qualities = () => {
                 <div className='content-left'>
                     <div className='section-t text-center'>
                         <h3>We are Professionals</h3>
-                        <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptates deserunt, molestiae soluta cumque eum.</p>
+                        <p className='text'>You can find highly optimized websites that are both visually appealing and 
+                            strategically designed to attract traffic! Our sites are crafted with attention to detail,
+                             engage users & rank well on search engine. Whatever your project is, We have the professionality to make it happen.  </p>
                     </div>
 
                     <div className='item-list grid text-white'>
@@ -23,7 +25,7 @@ const Qualities = () => {
                                             {quality.icon}
                                         </div>
                                         <div className='item-text'>
-                                            <h3 className='item-title fs-25'>Ideas & Plans</h3>
+                                            <h3 className='item-title fs-25'>{quality.title}</h3>
                                             <p className='text'>{quality.text}</p>
                                         </div>
                                     </div>

@@ -1,0 +1,94 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*About Section*/
+.section-a{
+  font-size: 40px;
+  color: black;bordser: 2px solid red;
+  padding: 50px 0;
+  margin-left: 50px;
+  line-height: 1.5em;
+  
+}
+.section-a p{
+  margin-top: 10px;
+}
+.con1{
+  paddinhg: 20px 20px;
+}
+.push-ul{
+  margin-left: 20px;
+}
+.push-ul li{
+  margin-left: 20px;
+  padding-top: 20px;
+  font-weight: 200;
+  
+
+}
+.push-ul li h4{
+  background: rgb(213, 123, 5);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.push-ul li span{display: flex;
+  font-size: 20pt;
+  display: block;
+
+}
+.sameLine{
+  display: flex;
+}
+.item-2 img{
+  width: 60%;
+  padding-top: 10%;
+}
+.section-a::before{
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 5px;
+  width: 60px;
+  background: rgb(87, 100, 222);
+  background: linear-gradient(45deg, rgba(87, 100, 222, 1) 0%, rgba(85, 179, 213, 1) 100%);
+}
+
+/*Screen Responsiveness*/
+@media screen and (max-width: 768px){
+  .section-a{
+      text-align: center;
+    }
+    .section-a::before{
+      left: 45%;
+      transform: translateX(0);
+    }
+}
+
+@media screen and (min-width: 992px){
+  .post1-content{
+      grid-template-columns: repeat(2, 1fr);
+      
+      column-gap: 60px;
+  }
+  .section-a{
+    line-height: 1.2em;
+    
+      text-align: justify;
+    }
+    .section-a::before{
+      left: 0;
+      transform: translateX(0);
+    }
+}
+
+/* hover effect */
+.translate-effect:hover{
+  transform: translateY(-20px);
+}

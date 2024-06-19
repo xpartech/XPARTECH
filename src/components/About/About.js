@@ -16,6 +16,8 @@ const About = () => {
                         <p className = "text">
                             Welcome to Xpartech, a leading IT company dedicated to delivering innovative and comprehensive technology solutions. At Xpartech, we pride ourselves on our ability to adapt to the ever-changing landscape of the tech industry, providing top-notch services in web development, mobile and desktop software, general IT solutions, and cutting-edge applications of artificial intelligence.
                         </p>
+
+                        <button className='text-white-900'>This button is styled with Tailwindcss</button>
                     </div>
                 </div>
             </div>

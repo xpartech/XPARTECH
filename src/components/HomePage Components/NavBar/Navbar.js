@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '../../Button Component/Button';
 import './Navbar.css';
 import Images from '../../../assets/images/xpartech2.png';
@@ -26,6 +27,12 @@ function Navbar() {
     }, [])
 
     window.addEventListener('resize', showButton)
+
+    let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+      //let path = `/Contact`; 
+      navigate("/contact");
+    }
 
   return (
     <>
@@ -56,7 +63,8 @@ function Navbar() {
                 </li>
                
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+            {button && <Button buttonStyle='btn--outline'
+            onclick={routeChange}>Contact</Button>}
         </div>
     </nav>
     </>

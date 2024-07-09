@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Contact.css";
 import { BsArrowRightCircle } from 'react-icons/bs';
-import sections from '../constants/data'
+import sections from '../../../components/constants/data'
 
 const Info = () => {
   return (

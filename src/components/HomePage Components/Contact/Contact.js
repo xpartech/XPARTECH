@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Contact.css";
-import images from '../constants/Images';
-import contact from '../../assets/images/contact9.jpeg'
+import contact from '../../../assets/images/contact9.jpeg';
 import { Formik } from 'formik';
 import Info from './Info';
 

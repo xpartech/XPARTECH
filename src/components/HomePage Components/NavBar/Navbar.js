@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react'
-import { Link } from 'react-router-dom'
-import { Button } from '../Button';
+import React, {useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
+import { Button } from '../../Button Component/Button';
 import './Navbar.css';
-import Images from '../../assets/images/xpartech2.png'
+import Images from '../../../assets/images/xpartech2.png';
 
 function Navbar() {
     const [click, setClick] = useState(false);

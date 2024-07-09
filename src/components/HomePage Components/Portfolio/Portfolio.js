@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Portfolio.css";
-import sections from '../constants/data'
+import sections from '../../../components/constants/data';
 
 const Portfolio = () => {
   return (

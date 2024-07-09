@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import "./Qualities.css";
-import sections from '../constants/data'
-import Images from '../../assets/images/hero1.jpg'
+import sections from '../../../components/constants/data';
+import Images from '../../../assets/images/hero1.jpg';
 
 const Qualities = () => {
   return (

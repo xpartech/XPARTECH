@@ -1,8 +1,8 @@
-import React from 'react'
-import './Footer.css'
+import React from 'react';
+import './Footer.css';
 import { Button } from '../../Button Component/Button';
 import { Link } from 'react-router-dom';
-import Images from '../../../assets/images/xpartech2.png'
+import Images from '../../../assets/images/xpartech2.png';
 
 function Footers() {
   return (

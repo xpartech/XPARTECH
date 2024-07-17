@@ -3,6 +3,7 @@ import './Footer.css';
 import { Button } from '../../Button Component/Button';
 import { Link } from 'react-router-dom';
 import Images from '../../../assets/images/xpartech2.png';
+import Divider from '@mui/material/Divider';
 
 function Footers() {
   return (
@@ -60,6 +61,8 @@ function Footers() {
         </div>
       </div>
     </div>
+
+    <Divider color= '#ffffff'/>
     <section class='social-media'>
       <div class='social-media-wrap'>
         <div class='footer-logo'>

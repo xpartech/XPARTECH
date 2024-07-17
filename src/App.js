@@ -14,7 +14,7 @@ function App() {
     {/* <Navbar/> */}
     {/* <AppBarComponent/> */}
     <Routes>
-      <Route path='/home' element={<Home/>} />
+      <Route path='/' element={<Home/>} />
       <Route path='/about' element={<About/>} />
       <Route path='/Services' element={<Services/>} />
       <Route path='/Contact' element={<Contact/>} />

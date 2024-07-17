@@ -67,7 +67,7 @@ const AppBarComponent = () => {
     {/* <img src={logo} alt='' width={150} height={100}/> */}
     <Box sx={{ display: {xs: 'none', md: 'flex'}}}>
         <Button color='inherit' sx={{fontSize: '17px', textTransform: 'none'}} 
-        onClick={() =>handleClick('/home')}>Home</Button>
+        onClick={() =>handleClick('/')}>Home</Button>
         <Button color='inherit' sx={{fontSize: '17px', textTransform: 'none'}}
         onClick={() =>handleClick('/about')}>About</Button>
         <Button color='inherit' sx={{fontSize: '17px', textTransform: 'none'}}

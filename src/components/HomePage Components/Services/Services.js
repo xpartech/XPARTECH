@@ -112,9 +112,7 @@ function Services() {
             }
             />
             </Grid>
-           
         </Grid>
-        </Fade>
     </div>
     );
   }

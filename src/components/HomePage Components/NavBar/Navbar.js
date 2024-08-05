@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '../../Button Component/Button';
 import './Navbar.css';
 import Images from '../../../assets/images/xpartech2.png';
@@ -27,6 +28,11 @@ function Navbar() {
 
     window.addEventListener('resize', showButton)
 
+    let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+      navigate("/contact");
+    }
+
   return (
     <>
     <nav className='navbar'>
@@ -46,7 +52,7 @@ function Navbar() {
                 </li>
                 <li className='nav-item'>
                     <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                        About
+                        About us
                     </Link>
                 </li>
                 <li className='nav-item'>
@@ -56,7 +62,8 @@ function Navbar() {
                 </li>
                
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+            {button && <Button buttonStyle='btn--outline'
+            onclick={routeChange}>Contact</Button>}
         </div>
     </nav>
     </>

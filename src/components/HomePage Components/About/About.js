@@ -14,7 +14,7 @@ const About = () => {
                     <div className='section-a'>
                         <h3>About us</h3>
                         <p className = "text">
-                            Welcome to Xpartech, a leading IT company dedicated to delivering innovative and comprehensive technology solutions. At Xpartech, we pride ourselves on our ability to adapt to the ever-changing landscape of the tech industry, providing top-notch services in web development, mobile and desktop software, general IT solutions, and cutting-edge applications of artificial intelligence.
+                            Welcome To Xpartech, we are a leading IT company dedicated to delivering innovative and comprehensive technology solutions. At Xpartech, we pride ourselves on our ability to adapt to the ever-changing landscape of the tech industry, providing top-notch services in web development, mobile and desktop software, general IT solutions, and cutting-edge applications of artificial intelligence.
                         </p>
                     </div>
                 </div>

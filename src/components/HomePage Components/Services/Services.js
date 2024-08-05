@@ -17,7 +17,6 @@ function Services() {
             <Slide direction="left" duration={2000}>
             <Typography variant='h1' align="center" 
             sx={{
-                textDecoration: 'underline',
                 marginTop: '30px',
                 marginBottom: '20px',
                 fontSize: '36px',

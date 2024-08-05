@@ -6,8 +6,8 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>XPARTECH HELPS YOU GROW YOUR BUSINESS</h1>
-      <p>What are you waiting for?</p>
+      <h1>XPARTECH PROFESSIONAL WEBSITE DEVELOPERS</h1>
+      <p>Taking every business to the internet</p>
       <div className='hero-btns'>
         <Button
           className='btns'

@@ -7,12 +7,13 @@ import Portfolio from '../HomePage Components/Portfolio/Portfolio';
 import Contact from '../HomePage Components/Contact/Contact';
 import Footers from '../HomePage Components/Footer/Footer';
 import Service from '../HomePage Components/Services/Services';
+import Post1 from '../HomePage Components/Post1/Post1';
 
 function Home() {
   return (
     <>
     <HeroSection />
-    <About/>
+    <Post1/>
     <Qualities/>
     <Service/>
     <Portfolio/>

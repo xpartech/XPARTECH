@@ -2,12 +2,17 @@ import React from 'react';
 import '../../../App.css';
 import { Button } from '../../Button Component/Button';
 import './HeroSection.css';
+import AppBarComponent from '../../AppBarComponent';
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>XPARTECH PROFESSIONAL WEBSITE DEVELOPERS</h1>
-      <p>Taking every business to the internet</p>
+      <div className='top'>
+      <AppBarComponent/>
+      </div>
+       
+      <h1>XPARTECH HELPS YOU GROW YOUR BUSINESS</h1>
+      <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <Button
           className='btns'

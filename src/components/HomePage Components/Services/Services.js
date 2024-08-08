@@ -8,7 +8,6 @@ import img3 from '../../../assets/images/ml3.jpg';
 import img4 from '../../../assets/images/it2.jpg';
 //import Slide from '@mui/material/Slide';
 import { Fade, Slide } from "react-awesome-reveal";
-import VizSensor from 'react-visibility-sensor'; 
 
 function Services() {
     let [active, setActive] = useState(false);
@@ -24,7 +23,7 @@ function Services() {
                 Our Services
             </Typography>
         </Slide>
-        <Fade cascade damping={0.2}>
+
         <Grid container spacing={1} direction={{xs: "column", md: "row"}}
         justify="center" 
         justifyContent="center"
@@ -117,9 +116,7 @@ function Services() {
             }
             />
             </Grid>
-           
         </Grid>
-        </Fade>
     </div>
     );
   }

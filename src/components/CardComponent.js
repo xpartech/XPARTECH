@@ -3,6 +3,7 @@ import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import { CardActionArea, CardHeader, CardMedia } from "@mui/material";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const StyledCard = styled((props) => <Card {...props} />)(({ theme }) => ({
   maxWidth: 500,
@@ -26,14 +27,17 @@ const CardComponent = (props) => {
   return (
       <StyledCard sx={{ minWidth: 275 }} elevation={10}>
       <CardActionArea>
+      <Fade direction="down" duration={2000}>
       <CardMedia 
       component="img"
       height="150"
       image={image}/>
-
+      </Fade>
+      <Fade direction="up" cascade damping={0.2}>
       <CardHeader title={title} />
 
       <CardContent>{content}</CardContent>
+      </Fade>
       </CardActionArea>
     </StyledCard>
   

@@ -1,3 +1,4 @@
+
 video {
   object-fit: cover;
   width: 100%;
@@ -61,6 +62,7 @@ video {
   .carousel-item > h1 {
     font-size: 35px;
     margin-top: -150px;
+
   }
 }
 

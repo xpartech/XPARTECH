@@ -3,6 +3,7 @@ import Carousel from 'react-material-ui-carousel';
 import { Box, Button, Paper, Typography } from '@mui/material';
 import PlayCircleFilledIcon from '@mui/icons-material/PlayCircleFilled';
 
+
 function HeroSection() {
   const carouselItems = [
     {

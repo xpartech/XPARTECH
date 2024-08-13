@@ -266,3 +266,10 @@
     margin-right: 4rem;
     width: 100%;
   }
+  .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}

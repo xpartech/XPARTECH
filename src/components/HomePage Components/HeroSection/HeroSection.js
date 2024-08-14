@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import { Box, Button, Paper, Typography } from '@mui/material';
 import PlayCircleFilledIcon from '@mui/icons-material/PlayCircleFilled';
+import Navbar from '../NavBar/Navbar';
 
 
 function HeroSection() {
@@ -21,8 +22,11 @@ function HeroSection() {
       backgroundImage: "url('/path/to/your/image2.jpg')",
     }
   ];
+  //rgb(255, 255, 255)
 
   return (
+    <>
+    <Navbar/>
     <Carousel
       indicators={false}
       interval={5000}
@@ -37,10 +41,10 @@ function HeroSection() {
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundImage: `linear-gradient(to right, rgba(255, 0, 150, 0.6), rgba(0, 204, 255, 0.6)), ${item.backgroundImage}`,
+            backgroundImage: `linear-gradient(to bottom, rgb(5, 127, 255), rgb(63, 139, 209)), ${item.backgroundImage}`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
-            boxShadow: 'inset 0 0 0 1000px rgba(0, 0, 0, 0.5)',
+            
             color: '#fff',
             textAlign: 'center',
           }}
@@ -71,6 +75,7 @@ function HeroSection() {
         </Paper>
       ))}
     </Carousel>
+    </>
   );
 }
 

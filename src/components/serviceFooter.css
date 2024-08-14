@@ -5,8 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    border-top-left-radius: 15rem;
-    border-top-right-radius: 15rem;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
 }
 
 .serviceFooter-subscription {

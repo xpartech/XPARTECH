@@ -12,7 +12,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 function Services() {
     let [active, setActive] = useState(false);
     return (
-        <div >
+        <div className="py-50">
             <Slide direction="left" duration={2000}>
             <Typography variant='h1' align="center" 
             sx={{
@@ -25,25 +25,23 @@ function Services() {
             </Typography>
         </Slide>
 
-        <Grid container spacing={1} direction={{xs: "column", md: "row"}}
+        <Grid container direction={{xs: "column", md: "row"}}
         justify="center" 
         justifyContent="center"
         alignItems="center"
         >
            
-        <Grid item xs={4}>
+        <Grid item xs={3}>
             <Card
             image ={img}
             title ={
             <Typography variant='h4'
-                sx={{
-                    color: "#ffffff",
-                    padding: "5px",
-                    width: "fit-content",
-                    borderRadius: "5px",
-                    backgroundColor: "#057fff",
-                    boxshadow: "-20px -20px 60px #bebebe,20px 20px 60px #ffffff",
-                }}>Web Development</Typography>
+            sx={{
+                color: "#057fff",
+                padding: "5px",
+                width: "fit-content",
+                borderRadius: "5px",
+            }}>Web Development</Typography>
             }
             content ={
               <Typography variant="h6" color="text.secondary" >
@@ -54,16 +52,15 @@ function Services() {
             }
             />
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={3}>
             <Card
             image ={img2}
             title ={<Typography variant='h4'
                 sx={{
-                    color: "#ffffff",
+                    color: "#057fff",
                     padding: "5px",
                     width: "fit-content",
                     borderRadius: "5px",
-                    backgroundColor: "#057fff",
                 }}>Mobile App Development</Typography>}
             content ={
               <Typography variant="h6" color="text.secondary">
@@ -75,16 +72,15 @@ function Services() {
             }
             />
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={3}>
             <Card
             image ={img3}
             title ={<Typography variant='h4'
                 sx={{
-                    color: "#ffffff",
+                    color: "#057fff",
                     padding: "5px",
                     width: "fit-content",
                     borderRadius: "5px",
-                    backgroundColor: "#057fff",
                 }}>Machine Learning Apps</Typography>}
             content ={
               <Typography variant="h6" color="text.secondary">
@@ -96,16 +92,15 @@ function Services() {
             }
             />
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={3}>
             <Card
             image ={img4}
             title ={<Typography variant='h4'
                 sx={{
-                    color: "#ffffff",
+                    color: "#057fff",
                     padding: "5px",
                     width: "fit-content",
                     borderRadius: "5px",
-                    backgroundColor: "#057fff",
                 }}>IT Consultations</Typography>}
             content ={
               <Typography variant="h6" color="text.secondary">

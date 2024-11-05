@@ -9,7 +9,9 @@ const Portfolio = () => {
             <div className='portfolio-content'>
                 <div className='section-t text-center'>
                     <h3>Our Portfolio</h3>
-                    <p className='text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet corrupti laboriosam fugit expedita inventore temporibus!</p>
+                    <p className='text'>With a track record of delivering high-quality design, XparTech is proud to be a leading Technology company in the Global community. We are known for combining stunning 
+                        design with seamless functionality.
+                    </p>
                 </div>
 
                 <div className='item-list text-center text-white grid'>

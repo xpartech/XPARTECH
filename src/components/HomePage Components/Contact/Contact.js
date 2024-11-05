@@ -12,7 +12,9 @@ const Contact = () => {
                 <div className='contact-left'>
                     <div className='section-t'>
                         <h3>Let's Talk?</h3> 
-                        <p className='text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, assumenda quia repellendus architecto culpa nisi?</p>
+                        <p className='text'>Simply fill out the form below and our customer service team will 
+                            contact you to learn more about your project. Start today!
+                        </p>
                     </div>
 
                     <Formik

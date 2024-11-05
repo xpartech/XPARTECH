@@ -9,7 +9,7 @@ const Portfolio = () => {
             <div className='portfolio-content'>
                 <div className='section-t text-center'>
                     <h3>Our Portfolio</h3>
-                    <p className='text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet corrupti laboriosam fugit expedita inventore temporibus!</p>
+                    <p className='text'>XparTech is well known for its professionalism and in crafting interactive website & web applications that deliver exceptional user experiences, seamlessly blending design and functionality</p>
                 </div>
 
                 <div className='item-list text-center text-white grid'>

@@ -11,7 +11,7 @@ const Qualities = () => {
                 <div className='content-left'>
                     <div className='section-t text-center'>
                         <h3>We are Professionals</h3>
-                        <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptates deserunt, molestiae soluta cumque eum.</p>
+                        <p className='text'>Our team values transparency, collaboration and innovation, working closely with you to build a websiten that not only fits your brand but also reflects its unique identity</p>
                     </div>
 
                     <div className='item-list grid text-white'>
